@@ -1,4 +1,1 @@
-class Users < ActiveRecord::Migration
-  def change
-  end
-end
+rake db:migrate SINATRA_ENV=test
